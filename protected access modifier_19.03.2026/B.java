@@ -7,7 +7,7 @@ public class B extends A{
 		super(x);
 		this.y=y;
 	}
-	public void gety(){
+	void gety(){
 		System.out.println("By is :"+this.y);
 	}
 }
