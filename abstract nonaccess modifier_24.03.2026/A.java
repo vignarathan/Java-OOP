@@ -1,10 +1,12 @@
-class A{
-	int x;
+abstract class A{
+	int y;
 	A(){
-		this.x=11;
+		this.y=11;
 	}
-	void getx(){
-		System.out.println("Ax "+this.x);
+	abstract void getx();
+	
+	void gety(){
+		System.out.println("Ay is "+this.y);
 	}
 }
 
