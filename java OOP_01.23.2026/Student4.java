@@ -11,7 +11,6 @@ class Student4{
 		
 	String getfullname(){
 		String fullname=this.fname+" "+this.lname;
-		
 		return fullname;
 	}
 	
