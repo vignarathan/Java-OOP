@@ -1,4 +1,4 @@
-abstract class B extends A{
+class B extends A{
 	int x;
 	B(){
 		this.x=33;
