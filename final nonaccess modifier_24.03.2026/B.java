@@ -8,7 +8,9 @@ class B extends A{
 	void gety(){
 		System.out.println("By is "+this.y);
 	}
-	void getx(){
+	/*getx() in B cannot override getx() in A void getx(){*/
+        
+	/*void getx(){
 		System.out.println("Bx is "+this.x);
-	}
+	}*/
 }
