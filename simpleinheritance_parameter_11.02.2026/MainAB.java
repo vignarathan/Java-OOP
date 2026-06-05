@@ -4,6 +4,5 @@ class MainAB{
 		B objb=new B(18);
 		objb.getx();
 		objb.gety();
-		
-	}
+    }
 }
