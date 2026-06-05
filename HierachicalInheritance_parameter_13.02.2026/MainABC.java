@@ -6,7 +6,6 @@ class MainABC{
 		objb.gety();
 		objc.getz();
 		objb.getx();
-		//objc.getx();
 	}
 }
 	
